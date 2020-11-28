@@ -332,6 +332,9 @@ blockquote {
 blockquote > p:last-child {
     margin-bottom: 0;
 }
+.fleche {
+    width: 100px;
+}
 figure {
     margin: 0;
     line-height: 0;
@@ -394,6 +397,20 @@ iframe {
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: 0 0;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, #fff, #d55672 100%);
+}
+body::-webkit-scrollbar-thumb {
+    background: 0 0;
+    box-shadow: 0 0 0 100000vh #000;
 }
 .image-panel-block + .image-panel-block {
     padding-top: 0;
@@ -961,6 +978,10 @@ iframe {
     opacity: 0.5;
     cursor: not-allowed;
 }
+.button1[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
 .button::after {
     content: "";
     position: absolute;
@@ -969,10 +990,22 @@ iframe {
     display: block;
     width: 50px;
     height: 100%;
-    border-left: 1px solid #fff;
-    background-image: url(../images/icons/arrow--white-7b1d32d3c4.svg);
+    background-image: url(../image/fleche1.svg);
     background-repeat: no-repeat;
-    background-size: 20px 20px;
+    background-size: 40px 40px;
+    background-position: 50%;
+}
+.button1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    background-image: url(../image/fleche1.svg);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
     background-position: 50%;
 }
 .button--white {
