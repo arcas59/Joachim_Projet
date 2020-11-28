@@ -1024,13 +1024,16 @@ body::-webkit-scrollbar-thumb {
 }
 .button--hollow {
     padding: 14px 30px;
-    border: 1px solid #5db3c0;
+    border: 1px solid #222222;
     background: 0 0;
-    color: #141d1e;
+    color: #222222;
 }
 .button--hollow:focus,
-.button--hollow:hover {
-    background: rgba(93, 179, 192, 0.05);
+.button--hollow:hover,
+.button--hollow:active {
+    background: white;
+    color: #222222;
+    text-decoration: none;
 }
 .button--hollow::after {
     content: none;
@@ -1535,10 +1538,12 @@ body::-webkit-scrollbar-thumb {
 }
 .mobile-menu__inner {
     padding: 18px 22px 28px;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     background: #f6f6f6;
 }
@@ -1575,6 +1580,8 @@ body::-webkit-scrollbar-thumb {
 .mobile-menu__nav {
     font-family: Pano, sans-serif;
     font-weight: 400;
+    font-size: 25px;
+    text-align: center;
 }
 .mobile-menu__nav ul {
     margin: 0;
@@ -2666,7 +2673,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 .site-header {
-    height: 56px;
+    height: 60px;
     border-bottom: 1px solid #cfcfcf;
     display: flex;
     align-items: center;
