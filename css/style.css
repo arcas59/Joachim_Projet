@@ -216,7 +216,7 @@ a {
     text-decoration: underline;
 }
 .ti {
-    -webkit-text-stroke: 1px #222222;
+    
 }
 a:focus,
 a:hover {
@@ -1019,7 +1019,7 @@ iframe {
     padding-bottom: calc(3.5vw + 2rem);
 }
 @media (min-width: 30em) {
-    .contact-wrapper {
+    .contact-wrapper {²
         max-width: calc(1130px + 6vw + 4rem);
         padding-left: calc(3vw + 2rem);
         padding-right: calc(3vw + 2rem);
@@ -3258,7 +3258,7 @@ iframe {
     left: 0;
     top: 0;
     width: 60px;
-    border-top: 2px solid #5db3c0;
+    border-top: 2px solid white;
 }
 .quotation-block__action {
     margin-top: 1.5em;
