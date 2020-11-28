@@ -5,6 +5,7 @@ html {
 }
 body {
     margin: 0;
+    cursor: url("../image/rouleau2.png"),auto;
 }
 main {
     display: block;
@@ -16,7 +17,7 @@ h1 {
 hr {
     box-sizing: content-box;
     height: 0;
-    overflow: visible;
+    overflow: visible
 }
 pre {
     font-family: monospace, monospace;
@@ -24,6 +25,10 @@ pre {
 }
 a {
     background-color: transparent;
+    cursor: url("../image/pinceau.png"),auto;
+}
+span, {
+    cursor: url("../image/pinceau.png"),auto;
 }
 abbr[title] {
     border-bottom: none;
@@ -960,6 +965,7 @@ body::-webkit-scrollbar-thumb {
 .button:focus,
 .button:hover {
     background: #d55672;
+    cursor: url("../image/pinceau.png"),auto;
 }
 .button:active {
     outline: 0;
