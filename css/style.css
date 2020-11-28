@@ -188,7 +188,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: #f6f6f6;
+    background: #ffffff;
     color: #656565;
     font-family: "Libre Baskerville", serif;
     font-size: 14px;
@@ -207,13 +207,22 @@ body#tinymce {
     font-size: 16px;
     font-size: 1.6rem;
 }
+a .sous {
+    color: white;
+    text-decoration: none;
+}
 a {
     color: inherit;
     text-decoration: underline;
 }
+.ti {
+    -webkit-text-stroke: 1px #222222;
+}
 a:focus,
 a:hover {
     text-decoration: none;
+    text-decoration-color: black;
+
 }
 p {
     margin-top: 0;
@@ -925,7 +934,7 @@ iframe {
     line-height: 1.25;
     position: relative;
     padding: 14px 74px 14px 24px;
-    background: #5db3c0;
+    background: #222222;
     color: #fff;
     font-size: 13px;
     font-size: 1.3rem;
@@ -933,7 +942,7 @@ iframe {
 }
 .button:focus,
 .button:hover {
-    opacity: 0.9;
+    background: #d55672;
 }
 .button:active {
     outline: 0;
@@ -944,6 +953,9 @@ iframe {
         padding-top: 17px;
         padding-bottom: 17px;
     }
+}
+.logocarre {
+    width: 200px;
 }
 .button[disabled] {
     opacity: 0.5;
@@ -964,8 +976,8 @@ iframe {
     background-position: 50%;
 }
 .button--white {
-    background: #fff;
-    color: #000;
+    background: #222222;
+    color: white;
 }
 .button--white::after {
     background-image: url(../images/icons/arrow-61318b17dd.svg);
@@ -985,17 +997,18 @@ iframe {
     content: none;
 }
 .button--hollow-arrow {
-    background: 0 0;
-    border: 1px solid #5db3c0;
-    color: #5db3c0;
+    background: #222222;
+    border: 1px solid #222222;
+    color: white;
 }
 .button--hollow-arrow::after {
-    border-color: #5db3c0;
     background-image: url(../images/wijnands/arrow-blue-bd2c274866.svg);
 }
 .button--hollow-arrow:focus,
 .button--hollow-arrow:hover {
-    background: rgba(93, 179, 192, 0.05);
+    background: #d55672;
+    border: 1px solid #d55672;
+    color: white
 }
 .contact-wrapper {
     margin-left: auto;
@@ -1225,7 +1238,7 @@ iframe {
     font-weight: 400;
     font-size: 20px;
     font-size: 2rem;
-    color: #5db3c0;
+    color: #000000;
 }
 @media (min-width: 30em) {
     .front-page-header__intro {
@@ -2519,7 +2532,7 @@ iframe {
     border: 0 none;
 }
 .site-footer {
-    background: #141d1e;
+    background: #222222;
     color: #fff;
 }
 .site-footer__inner {
@@ -2648,6 +2661,11 @@ iframe {
     border-color: #fff;
     color: #fff;
 }
+.site-header--frontpage .site-header__cta .button--hollow:hover {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: white;
+}
 @media (min-width: 75em) {
     .site-header__inner {
         display: flex;
@@ -2664,9 +2682,17 @@ iframe {
 @media (min-width: 75em) {
     .site-header__logo {
         position: absolute;
+        width: 450px;
+        margin-top: 20px;
         left: 50%;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
+    }
+}
+@media (max-width: 75em) {
+    .site-header__logo {
+        width: 250px;
+        margin-top: 50px;
     }
 }
 .site-header__logo > svg {
@@ -2745,7 +2771,7 @@ iframe {
     padding-bottom: 0.7em;
 }
 .site-header__nav > ul > li > a:hover > span {
-    border-bottom: 1px solid #5db3c0;
+    border-bottom: 4px solid #d55672;
 }
 .site-header__nav ul > li > a[aria-current="page"] > span {
     border-bottom: 1px solid #5db3c0;
@@ -3181,7 +3207,7 @@ iframe {
     }
 }
 .quotation-block {
-    background-color: #5db3c0;
+    background-color: #d55672;
     color: #000;
 }
 .quotation-block {
@@ -3555,7 +3581,7 @@ iframe {
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #5db3c0;
+    background: #d55672;
     height: 10px;
     transition-property: right;
     transition-duration: 0.3s;
@@ -3799,7 +3825,8 @@ iframe {
     display: none;
 }
 .usps-block li > a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #d55672
 }
 input,
 select,
