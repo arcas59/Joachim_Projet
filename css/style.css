@@ -220,9 +220,6 @@ a {
     color: inherit;
     text-decoration: underline;
 }
-.ti {
-    
-}
 a:focus,
 a:hover {
     text-decoration: none;
@@ -4030,4 +4027,8 @@ textarea + span[role="alert"] {
 }
 .disable-hover body {
     pointer-events: none;
+}
+.copyright {
+    text-align: center;
+    font-size: 15px;
 }
