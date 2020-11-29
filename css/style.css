@@ -1022,12 +1022,11 @@ body::-webkit-scrollbar-thumb {
 .button--hollow {
     padding: 14px 30px;
     border: 1px solid #222222;
-    background: 0 0;
+    background: white;
     color: #222222;
 }
 .button--hollow:focus,
-.button--hollow:hover,
-.button--hollow:active {
+.button--hollow:hover{
     background: white;
     color: #222222;
     text-decoration: none;
