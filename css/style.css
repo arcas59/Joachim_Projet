@@ -1163,6 +1163,9 @@ li:hover {
     border: 1px solid #d55672;
     color: white
 }
+.txtservice {
+    text-align: center;
+}
 .contact-wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -2781,7 +2784,6 @@ li:hover {
 }
 .site-header {
     height: 60px;
-    border-bottom: 1px solid #cfcfcf;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2805,7 +2807,7 @@ li:hover {
     fill: #fff;
 }
 .site-header--frontpage .site-header__hamburger > span {
-    background: #fff;
+    background: #d55672;
 }
 .site-header--frontpage .site-header__nav {
     color: #fff;
