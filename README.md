@@ -5,7 +5,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
 
 
-Vous trouverez ici code source du site de Mr Joachim RIBETTE, peintre en batiment sur la région de Bordeaux.
+Vous trouverez ici le code source du site de Mr Joachim RIBETTE, peintre en batiment sur la région de Bordeaux.
 
 
 ## Pour commencer
