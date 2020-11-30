@@ -1132,6 +1132,23 @@ li:hover {
 .button--hollow::after {
     content: none;
 }
+.buttono--hollow {
+    padding: 14px 30px;
+    border: 1px solid #222222;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.buttono--hollow:focus,
+.buttono--hollow:hover{
+    background: #222222;
+    color: white;
+    text-decoration: none;
+}
+.button--hollow::after {
+    content: none;
+    text-decoration: none;
+}
 .button--hollow-arrow {
     background: #222222;
     border: 1px solid #222222;
