@@ -25,4 +25,7 @@ Avoit accès à internet.
 ## Auteurs
 * **Adrien Ribeiro** _alias_ [@arcas59](https://github.com/arcas59)
 
+---
+permalink: /index.html
+---
 
