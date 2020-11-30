@@ -216,6 +216,10 @@ a .sous {
     color: white;
     text-decoration: none;
 }
+a .sousa {
+    color: black;
+    text-decoration: none;
+}
 a {
     color: inherit;
     text-decoration: underline;
@@ -2493,15 +2497,21 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     height: 120px;
     padding: 20px;
-    background: #5db3c0;
-    color: #000;
+    background: #222222;
+    color: white;
     text-decoration: none;
 }
+.lou {
+    color: white;
+    -webkit-text-stroke: 0.2px black;
+}
+.lou1 {
+    color: black;
+    -webkit-text-stroke: 0.2px white;
+}
+
 .service-preview {
-    background-image: url(../images/wijnands/abstract-bg-bb3c94d77b.svg);
-    background-size: 3363px 2764px;
-    background-position-x: -1380px;
-    background-position-y: -1180px;
+    background-image: url(../image/p1.png);
 }
 @media (min-width: 60em) {
     .service-preview {
@@ -2513,28 +2523,10 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.1s;
 }
 .service-preview[data-variation="1"] {
-    background-image: url(../images/wijnands/abstract-bg-bb3c94d77b.svg);
-    background-size: 3363px 2764px;
-    background-position-x: -1380px;
-    background-position-y: -1180px;
+    background-image: url(../image/p2.png);
 }
 .service-preview[data-variation="2"] {
-    background-image: url(../images/wijnands/abstract-bg-bb3c94d77b.svg);
-    background-size: 3363px 2764px;
-    background-position-x: -1380px;
-    background-position-y: -840px;
-}
-.service-preview[data-variation="3"] {
-    background-image: url(../images/wijnands/abstract-bg-bb3c94d77b.svg);
-    background-size: 3363px 2764px;
-    background-position-x: -1570px;
-    background-position-y: -1220px;
-}
-.service-preview[data-variation="4"] {
-    background-image: url(../images/wijnands/abstract-bg-bb3c94d77b.svg);
-    background-size: 3363px 2764px;
-    background-position-x: -2100px;
-    background-position-y: -1160px;
+    background-image: url(../image/p3.png);
 }
 .service-preview__body > h3 {
     font-family: Pano, sans-serif;
@@ -2667,6 +2659,9 @@ body::-webkit-scrollbar-thumb {
         font-family: Pano, sans-serif;
         font-weight: 400;
     }
+}
+.claus {
+    margin-top: 200px;
 }
 .site-header {
     height: 60px;
