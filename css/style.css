@@ -978,6 +978,13 @@ body::-webkit-scrollbar-thumb {
         padding-bottom: 17px;
     }
 }
+.mecontacter {
+    color: white;
+}
+.txtbas {
+    color: white;
+    font-size: 30px;
+}
 .logocarre {
     width: 200px;
 }
@@ -1026,8 +1033,8 @@ body::-webkit-scrollbar-thumb {
 .button--hollow {
     padding: 14px 30px;
     border: 1px solid #222222;
-    background: white;
-    color: #222222;
+    background: #222222;
+    color: white;
 }
 .button--hollow:focus,
 .button--hollow:hover{
