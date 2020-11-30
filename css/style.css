@@ -978,15 +978,43 @@ body::-webkit-scrollbar-thumb {
         padding-bottom: 17px;
     }
 }
+li:hover {
+    text-decoration: none;
+}
 .mecontacter {
     color: white;
+    margin: 0 0 0.5em;
+    font-family: Pano, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    position: relative;
+    max-width: 19em;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+@media (max-width: 59.9375em) {
+    .mecontacter {
+        text-align: center;
+    }
 }
 .txtbas {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+}
+.basref:hover {
+    text-decoration: none;
 }
 .logocarre {
     width: 200px;
+}
+@media (max-width: 59.9375em) {
+    .logocarre {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .button[disabled] {
     opacity: 0.5;
@@ -1277,6 +1305,9 @@ body::-webkit-scrollbar-thumb {
     width: 32px;
     height: 18px;
 }
+.texthead {
+    text-align: justify;
+}
 .front-page-header__intro {
     margin-left: auto;
     margin-right: auto;
@@ -1288,6 +1319,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 20px;
     font-size: 2rem;
     color: #000000;
+    text-align: justify;
 }
 @media (min-width: 30em) {
     .front-page-header__intro {
@@ -2653,13 +2685,14 @@ body::-webkit-scrollbar-thumb {
 }
 .site-footer__nav a:focus,
 .site-footer__nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 .site-footer__branding {
     margin-top: auto;
 }
 .site-footer__branding ul {
     font-family: "Libre Baskerville", serif;
+    font-size: 20px;
 }
 @media (min-width: 60em) {
     .site-footer__branding ul {
@@ -3296,6 +3329,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 4rem;
     }
 }
+
 .quotation-block h2::before {
     content: "";
     position: absolute;
