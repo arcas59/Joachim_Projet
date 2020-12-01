@@ -4068,6 +4068,7 @@ textarea + span[role="alert"] {
 .copyright {
     text-align: center;
     font-size: 15px;
+    text-decoration: none;
 }
 .copyright:hover {
     color: #d55672;
