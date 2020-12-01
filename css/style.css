@@ -4069,3 +4069,6 @@ textarea + span[role="alert"] {
     text-align: center;
     font-size: 15px;
 }
+.copyright:hover {
+    color: #d55672;
+}
